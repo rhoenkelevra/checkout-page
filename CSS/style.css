@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: #e9eef1;
+  font-family: "Roboto", "Lato", sans-serif;
+  padding: 50px;
+}
+
+.checkout-box-back {
+  width: 70%;
+  height: 60%;
+  position: relative;
+  margin: 10px auto;
+  background: rgb(51, 59, 70);
+  background: linear-gradient(
+    311deg,
+    rgba(51, 59, 70, 1) 1%,
+    rgba(89, 99, 113, 1) 58%
+  );
+  padding: 0;
+  z-index: 0;
+}
+
+.logo--big {
+  font-size: 8em;
+  color: #525a69;
+  margin-top: 0;
+  top: 0;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.product-name {
+  width: 200px;
+  margin-left: 25px;
+  padding-bottom: 150px;
+  border-bottom: 0.5px solid #999;
+  letter-spacing: 4px;
+  font-family: "Lato", sans-serif;
+}
+.text--orange {
+  color: #f48862;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.text--white {
+  color: #fff;
+  font-weight: 50;
+  line-height: 1.5em;
+}
+
+.order-total {
+  width: 200px;
+  margin: 15px 25px;
+}
+
+.total-label {
+  text-transform: uppercase;
+  color: #7a7e85;
+}
+
+.total-value {
+  display: block;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: -2px 3px #333;
+}
+
+.modal__footer {
+  position: relative;
+  bottom: 35px;
+  left: 300px;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.modal__footer i {
+  color: orange;
+}
+
+.checkout-box-front {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  position: absolute;
+  top: -450px;
+  left: 530px;
+  width: 500px;
+  height: 350px;
+  z-index: 1;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+.logo--small {
+  float: right;
+  margin: 20px 30px;
+  font-size: 2em;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #5d6d87;
+  font-family: "Lato";
+  font-weight: bold;
+  border: 1px solid black;
+}
+.search {
+  margin: 10px 40px;
+  border: 1px solid black;
+}
+
+.search img {
+  display: inline;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.search:hover input {
+  display: inline-block;
+}
+
+.search input {
+  border-radius: 30px;
+  display: none;
+}
+
+.search--text {
+  text-transform: uppercase;
+  color: #ccc;
+}
+.search:hover .search--text {
+  display: none;
+}
+.review {
+  padding-left: 25%;
+}
+.review i {
+  color: #f5cc76;
+}
+.review-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 15px 5px;
+  color: #c3c3c3;
+}
+
+.personal-info {
+  flex: 1;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.name .card-number {
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+.field-title {
+  text-transform: uppercase;
+  color: #c3c3c3;
+  font-size: 0.8em;
+  margin-bottom: 25px;
+}
